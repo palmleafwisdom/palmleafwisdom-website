@@ -28,40 +28,146 @@ window.SITE = {
     { name: "YouTube",   url: "" }
   ],
 
+  
   // --- Services (used on the Home and Services pages) ---
-  showPrices: true,                 // set to false to hide all prices
-      services: [
+  showPrices: false,
+
+  services: [
     {
-      name: "Online Reading",
-      description: "A palm leaf reading held by video or phone call, so you can join from anywhere. Contact us for details and booking.",
+      name: "Online Palm Leaf Reading",
+      description: "Explore the traditional palm leaf reading process remotely by video or phone. Available for clients who wish to participate from home.",
+      image: "images/services/online-reading.jpg",
       price: ""
     },
     {
       name: "Additional Chapters",
-      description: "Further sections of a reading for those who would like to explore more topics. Contact us for details.",
+      description: "Explore specific areas of life through additional chapters from your identified palm leaf. See the complete chapter list below and contact us to confirm availability.",
+      image: "images/services/additional-chapters.jpg",
       price: ""
     },
     {
-      name: "Direct Reading",
-      description: "An in-person palm leaf reading with the reader. Contact us for details and booking.",
+      name: "Direct Palm Leaf Reading",
+      description: "Experience a traditional palm leaf reading in person. Contact us to enquire about arrangements, availability and booking.",
+      image: "images/services/direct-reading.jpg",
       price: ""
     },
     {
       name: "Homa (Fire Ceremony)",
-      description: "A traditional fire ceremony performed according to custom. Contact us for details.",
+      description: "A traditional fire ceremony performed according to spiritual customs. Contact us to learn about the homam services available.",
+      image: "images/services/homa.jpg",
       price: ""
     },
     {
       name: "Athma Shanti Pooja",
-      description: "A traditional pooja with prayers for the peace of the soul. Contact us for details.",
+      description: "A traditional spiritual pooja. Contact us for information about its purpose, arrangements and availability.",
+      image: "images/services/athma-shanti-pooja.jpg",
       price: ""
     },
     {
-      name: "Mantra Yantra",
-      description: "Mantra and yantra services offered according to tradition. Contact us for details.",
+      name: "Mantra and Yantra Services",
+      description: "Explore traditional mantra and yantra services offered through Palm Leaf Wisdom. Contact us for details about available options.",
+      image: "images/services/mantra-yantra.jpg",
       price: ""
     }
-    ],
+  ],
+
+  // --- Additional Chapters ---
+  chapters: [
+    {
+      number: 1,
+      name: "General Chapter",
+      description: "An overview of your life and its key themes.",
+      status: "Included in Main Reading"
+    },
+    {
+      number: 2,
+      name: "Education and Wealth",
+      description: "Traditional interpretations concerning education, learning, wealth and financial circumstances."
+    },
+    {
+      number: 3,
+      name: "Siblings",
+      description: "Traditional interpretations concerning brothers, sisters and sibling relationships."
+    },
+    {
+      number: 4,
+      name: "Mother and Material Comforts",
+      description: "Covers your mother and material aspects of life, including house, land, vehicles and comforts."
+    },
+    {
+      number: 5,
+      name: "Children",
+      description: "Traditional interpretations concerning children, parenthood and family life."
+    },
+    {
+      number: 6,
+      name: "Enemies and Diseases",
+      description: "Traditional interpretations concerning opposition, challenges and health-related matters. This is not medical advice."
+    },
+    {
+      number: 7,
+      name: "Marriage and Relationships",
+      description: "Traditional interpretations concerning marriage, partnerships and relationships."
+    },
+    {
+      number: 8,
+      name: "Life Span",
+      description: "Traditional interpretations concerning longevity and the course of life; these are not certain predictions."
+    },
+    {
+      number: 9,
+      name: "Father and Spiritual Path",
+      description: "Covers your father, spiritual inclinations and your personal spiritual journey."
+    },
+    {
+      number: 10,
+      name: "Career, Job and Business",
+      description: "Traditional interpretations concerning employment, career direction and business."
+    },
+    {
+      number: 11,
+      name: "Luck, Profits and Potential Second Marriage",
+      description: "Covers luck and profits. The potential second-marriage topic is optional; clients in their first marriage can request to skip it."
+    },
+    {
+      number: 12,
+      name: "Foreign Connections and Next Incarnation",
+      description: "Traditional interpretations concerning foreign connections and beliefs about the next incarnation."
+    },
+    {
+      number: 13,
+      name: "Previous Birth and Old Karma",
+      description: "Explores traditional spiritual beliefs concerning previous births and past karma."
+    },
+    {
+      number: 14,
+      name: "Energetic Remedies to Improve Your Life Path",
+      description: "Traditional spiritual or energetic remedies discussed as part of your reading.",
+      status: "Included in Main Reading"
+    },
+    {
+      number: 15,
+      name: "Ayurveda Medicine",
+      description: "A special chapter relating to traditional Ayurvedic themes. It does not replace professional medical advice.",
+      status: "Special Chapter",
+      image: "images/services/ayurveda.jpg"
+    },
+    {
+      number: 16,
+      name: "Spiritual Development",
+      description: "A special chapter exploring spiritual growth and your personal spiritual journey.",
+      status: "Special Chapter",
+      image: "images/services/spiritual-development.jpg"
+    },
+    {
+      number: 17,
+      name: "Current Planetary Effects",
+      description: "A special chapter exploring the traditional astrological interpretation of current planetary influences.",
+      status: "Special Chapter",
+      image: "images/services/planetary-effects.jpg"
+    }
+  ],
+
   // --- Enquiry form (free Web3Forms service) ---
   // Paste the Access Key that Web3Forms emails to the business address.
   // It is safe to keep in public code. Leave it empty until the key arrives:
