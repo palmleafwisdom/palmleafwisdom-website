@@ -72,10 +72,8 @@ window.SITE = {
   ],
 
   // --- Additional Chapters ---
-  chapters: [
-   
-
 chapters: [
+   
   {
     number: 1,
     name: "General Chapter",
