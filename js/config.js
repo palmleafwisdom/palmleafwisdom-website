@@ -8,7 +8,7 @@
 window.SITE = {
   // --- Business identity ---
   businessName: "Palm Leaf Wisdom",
-  logo: "",                         // e.g. "images/logo.png" (leave empty to show the name as text)
+  logo: "images/logo.png",                         // e.g. "images/logo.png" (leave empty to show the name as text)
   readerName: "",
   domain: "palmleafwisdom.com",      // the client's GoDaddy domain, used later for deployment
 
