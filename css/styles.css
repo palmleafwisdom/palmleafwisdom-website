@@ -95,6 +95,12 @@ a:hover { color: var(--gold-text); }
   color: var(--green);
   text-decoration: none;
 }
+.brand img {
+  height: 82px;
+  width: auto;
+  max-width: 220px;
+  object-fit: contain;
+}
 .site-nav ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px 28px; }
 .site-nav a {
   display: inline-block;
