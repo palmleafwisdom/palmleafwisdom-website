@@ -32,50 +32,52 @@ window.SITE = {
   // --- Services (used on the Home and Services pages) ---
   showPrices: false,
 
-  services: [
-    {
-      name: "Online Palm Leaf Reading",
-      description: "Explore the traditional palm leaf reading process remotely by video or phone. Available for clients who wish to participate from home.",
-      image: "images/services/online-reading.jpg",
-      price: ""
-    },
-    {
-      name: "Additional Chapters",
-      description: "Explore specific areas of life through additional chapters from your identified palm leaf. See the complete chapter list below and contact us to confirm availability.",
-      image: "images/services/additional-chapters.jpg",
-      price: ""
-    },
-    {
-      name: "Direct Palm Leaf Reading",
-      description: "Experience a traditional palm leaf reading in person. Contact us to enquire about arrangements, availability and booking.",
-      image: "images/services/direct-reading.jpg",
-      price: ""
-    },
-    {
-      name: "Homa (Fire Ceremony)",
-      description: "A traditional fire ceremony performed according to spiritual customs. Contact us to learn about the homam services available.",
-      image: "images/services/homa.jpg",
-      price: ""
-    },
-    {
-      name: "Athma Shanti Pooja",
-      description: "A traditional spiritual pooja. Contact us for information about its purpose, arrangements and availability.",
-      image: "images/services/athma-shanti-pooja.jpg",
-      price: ""
-    },
-     {
-  name: "Gomadha Pooja",
-  description: "A traditional Hindu ritual honouring Gomatha, the sacred cow, to seek blessings for prosperity, peace, happiness and family well-being. Contact us to learn about the pooja arrangements and availability.",
-  image: "images/services/gomadha-pooja.jpg",
-  price: ""
-},
-    {
-      name: "Mantra and Yantra Services",
-      description: "Explore traditional mantra and yantra services offered through Palm Leaf Wisdom. Contact us for details about available options.",
-      image: "images/services/mantra-yantra.jpg",
-      price: ""
-    }
-  ],
+
+services: [
+  {
+    name: "Online Palm Leaf Reading",
+    description: "Explore the traditional palm leaf reading process remotely by video or phone. Available for clients who wish to participate from home.",
+    image: "images/services/online-reading.jpg",
+    price: ""
+  },
+  {
+    name: "Additional Chapters",
+    description: "Explore specific areas of life through additional chapters from your identified palm leaf. See the complete chapter list below and contact us to confirm availability.",
+    image: "images/Additional Chapters.jpeg",
+    price: ""
+  },
+  {
+    name: "Direct Palm Leaf Reading",
+    description: "Experience a traditional palm leaf reading in person. Contact us to enquire about arrangements, availability and booking.",
+    image: "images/Direct Palm Leaf Reading.jpeg",
+    price: ""
+  },
+  {
+    name: "Homa (Fire Ceremony)",
+    description: "A traditional fire ceremony performed according to spiritual customs. Contact us to learn about the homam services available.",
+    image: "images/Homa (Fire Ceremony).jpg",
+    price: ""
+  },
+  {
+    name: "Athma Shanti Pooja",
+    description: "A traditional spiritual pooja. Contact us for information about its purpose, arrangements and availability.",
+    image: "images/Athma Shanti Pooja.jpg",
+    price: ""
+  },
+  {
+    name: "Gomadha Pooja",
+    description: "A traditional Hindu ritual honouring Gomatha, the sacred cow, to seek blessings for prosperity, peace, happiness and family well-being. Contact us to learn about the pooja arrangements and availability.",
+    image: "images/gomadha-pooja.jpg",
+    price: ""
+  },
+  {
+    name: "Mantra and Yantra Services",
+    description: "Explore traditional mantra and yantra services offered through Palm Leaf Wisdom. Contact us for details about available options.",
+    image: "images/Mantra and Yantra Services.jpg",
+    price: ""
+  }
+],
+
 
   // --- Additional Chapters ---
 chapters: [
