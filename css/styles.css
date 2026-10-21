@@ -435,9 +435,9 @@ input:focus, select:focus, textarea:focus {
 .brand img,
 .site-header .logo img,
 .site-header img {
-  max-height: 60px;
+  max-height: 70px;
   width: auto;
-  max-width: 220px;
+  max-width: 240px;
   object-fit: contain;
 }
 
@@ -445,8 +445,8 @@ input:focus, select:focus, textarea:focus {
   .brand img,
   .site-header .logo img,
   .site-header img {
-    max-height: 44px;
-    max-width: 165px;
+    max-height: 50px;
+    max-width: 180px;
   }
 }
 
