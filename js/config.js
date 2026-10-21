@@ -18,7 +18,7 @@ window.SITE = {
   // WhatsApp number: digits only, with country code, no "+" or spaces. Example for India: 919876543210
   whatsappNumber: "918015323929",
   whatsappMessage: "Hello, I would like to enquire about a palm leaf reading.",
-  hours: "[BUSINESS HOURS, e.g. Mon-Sat 10:00-18:00 IST]",
+  hours: "10:00 AM - 6:00 PM IST",
   address: "",                      // optional: leave empty if there is no public address
 
   // --- Social media (leave url empty to hide a link) ---
