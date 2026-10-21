@@ -63,6 +63,12 @@ window.SITE = {
       image: "images/services/athma-shanti-pooja.jpg",
       price: ""
     },
+     {
+  name: "Gomadha Pooja",
+  description: "A traditional Hindu ritual honouring Gomatha, the sacred cow, to seek blessings for prosperity, peace, happiness and family well-being. Contact us to learn about the pooja arrangements and availability.",
+  image: "images/services/gomadha-pooja.jpg",
+  price: ""
+},
     {
       name: "Mantra and Yantra Services",
       description: "Explore traditional mantra and yantra services offered through Palm Leaf Wisdom. Contact us for details about available options.",
