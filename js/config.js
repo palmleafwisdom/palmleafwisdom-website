@@ -37,7 +37,7 @@ services: [
   {
     name: "Online Palm Leaf Reading",
     description: "Explore the traditional palm leaf reading process remotely by video or phone. Available for clients who wish to participate from home.",
-    image: "images/services/online-reading.jpg",
+    image: "images/online-reading.jpg",
     price: ""
   },
   {
