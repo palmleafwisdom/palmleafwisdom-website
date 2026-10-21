@@ -142,16 +142,60 @@
     details.innerHTML = '<ul class="contact-list">' + items.join("") + "</ul>";
   }
 
-  /* ---------- Services list (Home shows 3, Services page shows all) ---------- */
+  
+  /* ---------- Services list ---------- */
   var list = document.getElementById("services-list");
+
   if (list && S.services) {
     var limit = parseInt(list.getAttribute("data-limit"), 10) || S.services.length;
+
     list.innerHTML = S.services.slice(0, limit).map(function (s) {
+      var image = s.image
+        ? '<img class="service-image" src="' + esc(s.image) +
+          '" alt="' + esc(s.name) + '" loading="lazy">'
+        : "";
+
       var price = "";
       if (S.showPrices !== false) {
         price = '<p class="price">' + esc(s.price || "Price on request") + "</p>";
       }
-      return '<article class="card"><h3>' + esc(s.name) + "</h3><p>" + esc(s.description) + "</p>" + price + "</article>";
+
+      var wa = whatsappLink();
+      var button = wa
+        ? '<a class="button" href="' + esc(wa) +
+          '" target="_blank" rel="noopener">Enquire on WhatsApp</a>'
+        : "";
+
+      return '<article class="card service-card">' +
+        image +
+        '<h3>' + esc(s.name) + '</h3>' +
+        '<p>' + esc(s.description) + '</p>' +
+        price + button +
+        '</article>';
     }).join("");
   }
-})();
+
+  /* ---------- Additional chapters list ---------- */
+  var chaptersList = document.getElementById("chapters-list");
+
+  if (chaptersList && S.chapters) {
+    chaptersList.innerHTML = S.chapters.map(function (chapter) {
+      var status = chapter.status
+        ? '<p class="chapter-status">' + esc(chapter.status) + '</p>'
+        : "";
+
+      var image = chapter.image
+        ? '<img class="service-image" src="' + esc(chapter.image) +
+          '" alt="' + esc(chapter.name) + '" loading="lazy">'
+        : "";
+
+      return '<article class="card chapter-card">' +
+        image +
+        '<p class="chapter-number">Chapter ' + esc(chapter.number) + '</p>' +
+        '<h3>' + esc(chapter.name) + '</h3>' +
+        '<p>' + esc(chapter.description) + '</p>' +
+        status +
+        '</article>';
+    }).join("");
+  }
+
