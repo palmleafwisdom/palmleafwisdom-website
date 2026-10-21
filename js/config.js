@@ -30,38 +30,38 @@ window.SITE = {
 
   // --- Services (used on the Home and Services pages) ---
   showPrices: true,                 // set to false to hide all prices
-    services: [
+      services: [
     {
       name: "Online Reading",
-      description: "A palm leaf reading held by video or phone call, so you can join from anywhere. [EDIT: client to add duration, platform and what is included.]",
+      description: "A palm leaf reading held by video or phone call, so you can join from anywhere. Contact us for details and booking.",
       price: ""
     },
     {
       name: "Additional Chapters",
-      description: "Further sections of a reading for those who would like to explore more topics. [EDIT: client to explain what the additional chapters cover and how they are added.]",
+      description: "Further sections of a reading for those who would like to explore more topics. Contact us for details.",
       price: ""
     },
     {
       name: "Direct Reading",
-      description: "An in-person palm leaf reading with the reader. [EDIT: client to add location, duration and booking details.]",
+      description: "An in-person palm leaf reading with the reader. Contact us for details and booking.",
       price: ""
     },
     {
       name: "Homa (Fire Ceremony)",
-      description: "A traditional fire ceremony performed according to custom. [EDIT: client to describe what is included and how it is arranged.]",
+      description: "A traditional fire ceremony performed according to custom. Contact us for details.",
       price: ""
     },
     {
       name: "Athma Shanti Pooja",
-      description: "A traditional pooja with prayers for the peace of the soul. [EDIT: client to confirm who it is performed for and what it includes.]",
+      description: "A traditional pooja with prayers for the peace of the soul. Contact us for details.",
       price: ""
     },
     {
       name: "Mantra Yantra",
-      description: "Mantra and yantra services offered according to tradition. [EDIT: client to describe what is offered and how it is prepared and delivered.]",
+      description: "Mantra and yantra services offered according to tradition. Contact us for details.",
       price: ""
     }
-  ],
+    ],
   // --- Enquiry form (free Web3Forms service) ---
   // Paste the Access Key that Web3Forms emails to the business address.
   // It is safe to keep in public code. Leave it empty until the key arrives:
