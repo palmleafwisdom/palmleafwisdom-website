@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us | Palm Leaf Wisdom</title>
+  <meta name="description" content="Contact us to enquire about a palm leaf reading. Use the enquiry form, WhatsApp or email. We reply during business hours.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header id="site-header">
+    <!-- Menu is built by js/layout.js. This simple menu shows if JavaScript is off. -->
+    <noscript>
+      <nav aria-label="Main menu" class="container">
+        <a href="index.html">Home</a> | <a href="about.html">About Us</a> | <a href="services.html">Our Services</a> |
+        <a href="how-it-works.html">How It Works</a> | <a href="contact.html">Contact Us</a>
+      </nav>
+    </noscript>
+  </header>
+
+  <main id="main">
+
+    <section class="page-hero">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <p class="lead narrow">Send an enquiry or message us directly. We will reply as soon as we can.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container two-col">
+
+        <div>
+          <h2>Send an enquiry</h2>
+          <p class="notice" id="form-notice"><strong>Not connected yet.</strong> This form is switched off until the form service is set up and tested. Please use WhatsApp or email for now.</p>
+          <div id="form-status" role="status" aria-live="polite" tabindex="-1"></div>
+          <form id="enquiry-form" novalidate>
+            <div class="form-field">
+              <label for="name">Your name (required)</label>
+              <input type="text" id="name" name="name" autocomplete="name" required>
+            </div>
+            <div class="form-field">
+              <label for="email">Email address (required)</label>
+              <input type="email" id="email" name="email" autocomplete="email" required>
+            </div>
+            <div class="form-field">
+              <label for="country">Country (required)</label>
+              <input type="text" id="country" name="country" autocomplete="country-name" required>
+            </div>
+            <div class="form-field">
+              <label for="contact-method">Preferred contact method (required)</label>
+              <select id="contact-method" name="contact_method" required>
+                <option value="">Please choose</option>
+                <option>Email</option>
+                <option>WhatsApp</option>
+                <option>Phone call</option>
+                <option>Video call</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="message">Your message (required)</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <div class="hp" aria-hidden="true"><label>Leave this box empty <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off"></label></div>
+            <p>By sending this form you agree to our <a href="privacy.html">Privacy Policy</a>.</p>
+            <button class="button" type="submit" disabled>Send enquiry</button>
+          </form>
+        </div>
+
+        <div>
+          <h2>Contact details</h2>
+          <div id="contact-details"></div>
+          <p><a class="button" href="#" data-whatsapp>Message us on WhatsApp</a></p>
+          <p>We reply to messages during our business hours. For overseas enquiries, please mention your country so we can suggest suitable times.</p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="site-footer">
+    <!-- Footer is built by js/layout.js -->
+    <noscript>
+      <div class="container">
+        <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms</a></p>
+      </div>
+    </noscript>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/layout.js"></script>
+  <script src="js/contact-form.js"></script>
+</body>
+</html>
