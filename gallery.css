@@ -1,0 +1,50 @@
+/* ==========================================================
+   gallery.css  -  styles for the Gallery page only
+   ========================================================== */
+
+.gallery-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(240px, 100%), 1fr));
+  gap: 20px;
+}
+
+.gallery-item {
+  display: block;
+  width: 100%;
+  padding: 0;
+  background: var(--white);
+  border: 1px solid #D9C99A;
+  border-radius: 6px;
+  overflow: hidden;
+  cursor: zoom-in;
+}
+.gallery-item:hover { border-color: var(--gold); }
+.gallery-item img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;   /* crops neatly so every tile is the same size */
+}
+
+/* Enlarged photo window */
+.lightbox {
+  width: 100%;
+  max-width: min(92vw, 1000px);
+  padding: 16px;
+  background: var(--ivory);
+  color: var(--brown);
+  border: 2px solid var(--gold);
+  border-radius: 8px;
+}
+.lightbox::backdrop { background: rgba(62, 47, 35, 0.8); }
+.lightbox img {
+  display: block;
+  max-width: 100%;
+  max-height: 70vh;
+  margin: 12px auto;
+  object-fit: contain;
+}
+.lightbox p { margin: 0; text-align: center; }
