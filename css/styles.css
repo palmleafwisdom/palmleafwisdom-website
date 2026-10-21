@@ -3,22 +3,29 @@
    To change the colors, edit the values in :root below.
    ========================================================== */
 
+
 :root {
-  --ivory: #FBF6EA;
-  --ivory-deep: #F2EBD6;
-  --leaf: #EADFC2;
-  --green: #3F5E49;
-  --green-dark: #2F4838;
-  --brown: #3E2F23;
-  --brown-soft: #5A4A3A;
-  --gold: #B08D3C;
-  --gold-text: #6B5A2A;
-  --gold-light: #E3C77E;
+  /* Palm Leaf Wisdom — Indigo & Terracotta */
+  --ivory: #F4EEE5;
+  --ivory-deep: #E8DED2;
+  --leaf: #F0D2C3;
+
+  --green: #263653;
+  --green-dark: #19263D;
+
+  --brown: #292B30;
+  --brown-soft: #51545B;
+
+  --gold: #C66A45;
+  --gold-text: #98452E;
+  --gold-light: #F4D0C2;
+
   --white: #FFFFFF;
 
   --font-heading: "Cormorant Garamond", Georgia, "Times New Roman", serif;
   --font-body: "Source Sans 3", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
 }
+
 
 /* ---------- Base ---------- */
 *, *::before, *::after { box-sizing: border-box; }
@@ -280,3 +287,147 @@ input[aria-invalid="true"], select[aria-invalid="true"], textarea[aria-invalid="
 .form-message { padding: 16px 20px; border-radius: 4px; margin-bottom: 20px; font-weight: 600; }
 .form-success { background: #E7F0E9; border: 1px solid var(--green); color: var(--green-dark); }
 .form-error { background: #F8E8E8; border: 1px solid #9B2C2C; color: #7A2020; }
+
+/* ---------- Palm Leaf Wisdom: Indigo & Terracotta redesign ---------- */
+
+.site-header {
+  background: var(--green);
+  border-bottom: 3px solid var(--gold);
+}
+
+.brand {
+  color: var(--white);
+}
+
+.site-nav a {
+  color: var(--white);
+}
+
+.site-nav a:hover,
+.site-nav a[aria-current="page"] {
+  color: var(--gold-light);
+  border-bottom-color: var(--gold);
+}
+
+.nav-toggle {
+  color: var(--white);
+  border-color: var(--gold-light);
+}
+
+.nav-toggle:hover {
+  background: var(--green-dark);
+}
+
+.button {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: var(--white);
+}
+
+.button:hover {
+  background: var(--gold-text);
+  border-color: var(--gold-text);
+  color: var(--white);
+}
+
+.button-outline {
+  background: transparent;
+  color: var(--green);
+  border-color: var(--green);
+}
+
+.button-outline:hover {
+  background: var(--green);
+  border-color: var(--green);
+  color: var(--white);
+}
+
+.button-light {
+  background: var(--white);
+  border-color: var(--white);
+  color: var(--green);
+}
+
+.button-light:hover {
+  background: var(--ivory-deep);
+  border-color: var(--ivory-deep);
+  color: var(--green-dark);
+}
+
+.hero-image {
+  border-color: var(--gold);
+  background: var(--ivory-deep);
+}
+
+.card {
+  border: 1px solid #DED2C5;
+  border-top: 4px solid var(--gold);
+  border-radius: 8px;
+  box-shadow: 0 5px 18px rgba(38, 54, 83, 0.06);
+}
+
+.cta-band {
+  background: var(--green);
+}
+
+.cta-band h2 {
+  color: var(--white);
+}
+
+.site-footer {
+  background: var(--green-dark);
+  color: var(--white);
+}
+
+.site-footer a {
+  color: var(--gold-light);
+}
+
+.site-footer a:hover {
+  color: var(--white);
+}
+
+.footer-note {
+  border-top-color: #48536A;
+}
+
+.page-hero {
+  background: var(--ivory-deep);
+  border-bottom: 3px solid var(--gold);
+}
+
+.page-hero h1,
+h2 {
+  color: var(--green);
+}
+
+.notice {
+  background: var(--ivory-deep);
+  border-color: var(--gold);
+  border-radius: 8px;
+}
+
+details {
+  border-color: #DED2C5;
+  border-radius: 8px;
+}
+
+input, select, textarea {
+  border-color: #A8A09A;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: 2px solid var(--green);
+  outline-offset: 2px;
+}
+
+@media (max-width: 760px) {
+  .site-nav {
+    background: var(--green);
+  }
+
+  .site-nav a {
+    border-bottom-color: #48536A;
+  }
+}
+
