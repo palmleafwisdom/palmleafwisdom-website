@@ -39,7 +39,7 @@
   var header = document.getElementById("site-header");
   if (header) {
     var brand = S.logo
-      ? '<img src="' + esc(S.logo) + '" alt="' + esc(S.businessName) + ' logo" height="44">'
+     ? '<img src="' + esc(S.logo) + '" alt="' + esc(S.businessName) + ' logo" height="82">'
       : esc(S.businessName);
 
     var links = pages.map(function (p) {
