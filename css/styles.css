@@ -431,3 +431,22 @@ input:focus, select:focus, textarea:focus {
   }
 }
 
+/* Logo size adjustment */
+.brand img,
+.site-header .logo img,
+.site-header img {
+  max-height: 46px;
+  width: auto;
+  max-width: 190px;
+  object-fit: contain;
+}
+
+@media (max-width: 760px) {
+  .brand img,
+  .site-header .logo img,
+  .site-header img {
+    max-height: 36px;
+    max-width: 145px;
+  }
+}
+
