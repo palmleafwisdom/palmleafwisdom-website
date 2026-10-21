@@ -160,11 +160,18 @@
         price = '<p class="price">' + esc(s.price || "Price on request") + "</p>";
       }
 
-      var wa = whatsappLink();
-      var button = wa
-        ? '<a class="button" href="' + esc(wa) +
-          '" target="_blank" rel="noopener">Enquire on WhatsApp</a>'
-        : "";
+      
+var message = s.whatsappMessage || S.whatsappMessage || "";
+var wa = !isPlaceholder(S.whatsappNumber)
+  ? "https://wa.me/" + encodeURIComponent(S.whatsappNumber) +
+    "?text=" + encodeURIComponent(message)
+  : "";
+
+var button = wa
+  ? '<a class="button" href="' + esc(wa) +
+    '" target="_blank" rel="noopener">Enquire on WhatsApp</a>'
+  : "";
+
 
       return '<article class="card service-card">' +
         image +
@@ -196,6 +203,25 @@
         '<p>' + esc(chapter.description) + '</p>' +
         status +
         '</article>';
+   
     }).join("");
+
+    var chapterMessage =
+      "Hello, I would like to enquire about the additional chapters available from my identified palm leaf.";
+
+    var chapterWa = !isPlaceholder(S.whatsappNumber)
+      ? "https://wa.me/" + encodeURIComponent(S.whatsappNumber) +
+        "?text=" + encodeURIComponent(chapterMessage)
+      : "";
+
+    if (chapterWa) {
+      chaptersList.innerHTML +=
+        '<div class="chapter-enquiry">' +
+          '<a class="button" href="' + esc(chapterWa) +
+          '" target="_blank" rel="noopener">' +
+          'Enquire about Additional Chapters</a>' +
+        '</div>';
+    }
   }
 })();
+
