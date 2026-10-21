@@ -73,100 +73,98 @@ window.SITE = {
 
   // --- Additional Chapters ---
   chapters: [
-    {
-      number: 1,
-      name: "General Chapter",
-      description: "An overview of your life and its key themes.",
-      status: "Included in Main Reading"
-    },
-    {
-      number: 2,
-      name: "Education and Wealth",
-      description: "Traditional interpretations concerning education, learning, wealth and financial circumstances."
-    },
-    {
-      number: 3,
-      name: "Siblings",
-      description: "Traditional interpretations concerning brothers, sisters and sibling relationships."
-    },
-    {
-      number: 4,
-      name: "Mother and Material Comforts",
-      description: "Covers your mother and material aspects of life, including house, land, vehicles and comforts."
-    },
-    {
-      number: 5,
-      name: "Children",
-      description: "Traditional interpretations concerning children, parenthood and family life."
-    },
-    {
-      number: 6,
-      name: "Enemies and Diseases",
-      description: "Traditional interpretations concerning opposition, challenges and health-related matters. This is not medical advice."
-    },
-    {
-      number: 7,
-      name: "Marriage and Relationships",
-      description: "Traditional interpretations concerning marriage, partnerships and relationships."
-    },
-    {
-      number: 8,
-      name: "Life Span",
-      description: "Traditional interpretations concerning longevity and the course of life; these are not certain predictions."
-    },
-    {
-      number: 9,
-      name: "Father and Spiritual Path",
-      description: "Covers your father, spiritual inclinations and your personal spiritual journey."
-    },
-    {
-      number: 10,
-      name: "Career, Job and Business",
-      description: "Traditional interpretations concerning employment, career direction and business."
-    },
-    {
-      number: 11,
-      name: "Luck, Profits and Potential Second Marriage",
-      description: "Covers luck and profits. The potential second-marriage topic is optional; clients in their first marriage can request to skip it."
-    },
-    {
-      number: 12,
-      name: "Foreign Connections and Next Incarnation",
-      description: "Traditional interpretations concerning foreign connections and beliefs about the next incarnation."
-    },
-    {
-      number: 13,
-      name: "Previous Birth and Old Karma",
-      description: "Explores traditional spiritual beliefs concerning previous births and past karma."
-    },
-    {
-      number: 14,
-      name: "Energetic Remedies to Improve Your Life Path",
-      description: "Traditional spiritual or energetic remedies discussed as part of your reading.",
-      status: "Included in Main Reading"
-    },
-    {
-      number: 15,
-      name: "Ayurveda Medicine",
-      description: "A special chapter relating to traditional Ayurvedic themes. It does not replace professional medical advice.",
-      status: "Special Chapter",
-      image: "images/services/ayurveda.jpg"
-    },
-    {
-      number: 16,
-      name: "Spiritual Development",
-      description: "A special chapter exploring spiritual growth and your personal spiritual journey.",
-      status: "Special Chapter",
-      image: "images/services/spiritual-development.jpg"
-    },
-    {
-      number: 17,
-      name: "Current Planetary Effects",
-      description: "A special chapter exploring the traditional astrological interpretation of current planetary influences.",
-      status: "Special Chapter",
-      image: "images/services/planetary-effects.jpg"
-    }
-  ],
+   
+
+chapters: [
+  {
+    number: 1,
+    name: "General Chapter",
+    description: "An overview of your life and its key themes.",
+    status: "Included in Main Reading",
+    image: "images/General Chapter.jpg"
+  },
+  {
+    number: 2,
+    name: "Education and Wealth",
+    image: "images/2. Education and Wealth.jpg"
+  },
+  {
+    number: 3,
+    name: "Siblings",
+    image: "images/3. Siblings.jpg"
+  },
+  {
+    number: 4,
+    name: "Mother and Material Comforts",
+    image: "images/4. Mother and Material Comforts.jpg"
+  },
+  {
+    number: 5,
+    name: "Children",
+    image: "images/5. Children.jpg"
+  },
+  {
+    number: 6,
+    name: "Enemies and Diseases",
+    image: "images/6. Enemies and Diseases.jpg"
+  },
+  {
+    number: 7,
+    name: "Marriage and Relationships",
+    image: "images/7. Marriage and Relationships.jpg"
+  },
+  {
+    number: 8,
+    name: "Life Span",
+    image: "images/8. Life Span.jpg"
+  },
+  {
+    number: 9,
+    name: "Father and Spiritual Path",
+    image: "images/9. Father and Spiritual Path.jpg"
+  },
+  {
+    number: 10,
+    name: "Career, Job and Business",
+    image: "images/10. Career, Job and Business.jpg"
+  },
+  {
+    number: 11,
+    name: "Luck, Profits and Potential Second Marriage",
+    image: "images/11. Luck, Profits and Potential Second Marriage.jpg"
+  },
+  {
+    number: 12,
+    name: "Foreign Connections and Next Incarnation",
+    image: "images/12. Foreign Connections and Next Incarnation.jpg"
+  },
+  {
+    number: 13,
+    name: "Previous Birth and Old Karma",
+    image: "images/13. Previous Birth and Old Karma.jpg"
+  },
+  {
+    number: 14,
+    name: "Energetic Remedies to Improve Your Life Path",
+    image: "images/14. Energetic Remedies to Improve Your Life Path.jpg"
+  },
+  {
+    number: 15,
+    name: "Ayurveda Medicine",
+    image: "images/15. Ayurveda Medicine.jpg"
+  },
+  {
+    number: 16,
+    name: "Spiritual Development",
+    image: "images/16. Spiritual Development.jpg"
+  },
+  {
+    number: 17,
+    name: "Current Planetary Effects",
+    image: "images/17. Current Planetary Effects.jpg"
+  }
+],
+
 
   // --- Enquiry form (free Web3Forms service) ---
   // Paste the Access Key that Web3Forms emails to the business address.
