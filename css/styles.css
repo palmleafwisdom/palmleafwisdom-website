@@ -536,3 +536,4 @@ input:focus, select:focus, textarea:focus {
     max-height: 56px;
   }
 }
+.chapter-enquiry { display: none; }
