@@ -206,7 +206,7 @@ var button = wa
    
     }).join("");
 
-    var chapterMessage =
+        var chapterMessage =
       "Hello, I would like to enquire about the additional chapters available from my identified palm leaf.";
 
     var chapterWa = !isPlaceholder(S.whatsappNumber)
