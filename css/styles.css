@@ -520,4 +520,5 @@ input:focus, select:focus, textarea:focus {
     max-height: 360px;
   }
 }
-
+#additional-chapters .notice { margin-top: 32px; }
+#additional-chapters .center { margin-top: 24px; }
