@@ -522,3 +522,17 @@ input:focus, select:focus, textarea:focus {
 }
 #additional-chapters .notice { margin-top: 32px; }
 #additional-chapters .center { margin-top: 24px; }
+
+/* Logo size: change only the two numbers */
+.site-header .brand img {
+  height: 80px;
+  max-height: 80px;
+  width: auto;
+  max-width: none;
+}
+@media (max-width: 760px) {
+  .site-header .brand img {
+    height: 56px;
+    max-height: 56px;
+  }
+}
